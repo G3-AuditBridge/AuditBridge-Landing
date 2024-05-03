@@ -5,20 +5,33 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <link type="text/css" rel="stylesheet" href="style.css"/>
         <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+        
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
         <title>Audit Bridge</title>
     </head>
     <body>
         <div class="navbar">
-            <div class="navbar-left">
-                <img src="./images/Logo.png" class="logo">
+            <div>
+                <div class="navbar-left">
+                    <img src="/images/logo.png" class="logo">
+                </div>
+                <div class="navbar-right">
+                    <div>
+                        <ul>
+                            <li><a class="log-in" href="#">Log In</a></li>
+                            <li><a class="sign-up" href="#">Sign Up</a></li>
+                        </ul>
+                    </div>        
+                </div>
             </div>
-            <div class="navbar-right">
-                <div>
-                    <ul>
-                        <li><a href="#">Log In</a></li>
-                        <li><a href="#">Sign Up</a></li>
-                    </ul>
-                </div>        
+            <div class="lang-container">
+                <div class="lang-wrap">
+                    <a class="lang" href="#" language='english' class="active">EN</a>
+                    <a class="lang" href="#" language='spanish'>ES</a>
+                </div>
             </div>
         </div>
         <div class="main">
@@ -27,79 +40,91 @@
                         Contacting a health supervisor was never this easy
                     </div>
                     <div class="container-main-description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.
+                        With Audit Bridge, you'll be able to connect with the best auditor in your zone, let us help you keep your bussiness up and running. 
                     </div>
-                    <div class="container-main-button-left">Get Started</div>
-                    <div class="container-main-button-right">Learn More</div>
+                    <div class="container-main-buttons">
+                        <a class="container-main-button-left" href="#">Get Started</a>
+                        <a class="container-main-button-right" href="#">Learn More</a>
+                    </div>
                 </div>
         </div>
         <div class="features">
             <div class="feature">
                 <i class="ri-time-line ri-2x"></i>
                 <div>
-                    <h2>Fast</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis felis convallis, rhoncus leo id, scelerisque purus. Ut auctor gravida nulla.</p>
+                    <h2 class="feature-fast">Fast</h2>
+                    <p class="feature-fast-description">Our service guarantees you to get in touch with multiple auditor offers in less than 14 hours.</p>
                 </div>
             </div>
             <div class="feature">
                 <i class="ri-bar-chart-2-fill ri-2x"></i>
                 <div>
-                    <h2>Easy</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis felis convallis, rhoncus leo id, scelerisque purus. Ut auctor gravida nulla.</p>
+                    <h2 class="feature-easy">Easy</h2>
+                    <p class="feature-easy-description">We provide a service that will allow you to achieve your goal with just a few clicks.</p>
                 </div>
             </div>
             <div class="feature">
-                <i class="ri-star-line ri-2x"></i>
+                <i class="ri-shield-line ri-2x"></i>
                 <div>
-                    <h2>Simple</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis felis convallis, rhoncus leo id, scelerisque purus. Ut auctor gravida nulla.</p>
+                    <h2 class="feature-safe">Safe</h2>
+                    <p class="feature-safe-description">We make sure to review every auditor's background to achieve a 100% reliable service.</p>
                 </div>
             </div>
         </div>
         <div class="benefits">
-            <div class="benefit1">
+            <div class="benefit-up">
                     <div class="benefit-content">
-                         <h2>Easy</h2>
-                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis felis convallis, rhoncus leo id, scelerisque purus. Ut auctor gravida nulla.</p>
+                         <h2 class="benefit-up-title">Surpass the health inspecction with no problems</h2>
+                         <p class="benefit-up-description">
+                            Health inspections can cause major problems for establishments. However, with Audit Bridge, all of this may change.
+
+                            You may count on the mentoring of the greatest health inspectors in your area.
+                        </p>
                      </div>
-                <img src="./images/benefit1.jpg" class="benefit-image1">
+                <img src="/images/benefit1.jpg" class="benefit-image1">
             </div>
-            <div class="benefit2">
-            <img src="./images/benefit2.jpg" class="benefit-image2">
+            <div class="benefit-down">
+            <img src="/images/benefit2.jpg" class="benefit-image2">
                 <div class="benefit-content">
-                    <h2>Easy</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis felis convallis, rhoncus leo id, scelerisque purus. Ut auctor gravida nulla.</p>
+                    <h2 class="benefit-down-title">Contact the best adviser of your area</h2>
+                    <p class="benefit-down-description">
+                        Don't let your concern about the auditor's reliability become yours. 
+
+                        To ensure confidence, we are committed to ensuring complete security and openness in the information we collect.
+                    </p>
                 </div>
             </div>
         </div>
         <div class="testimonies">
             <i class="ri-arrow-drop-left-line ri-2x"></i>
             <div class="testimony">
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id."</p>
-                <img src="./images/owner.jpg" class="owner-image">
+                <p class="testimony-description">"I am pleasantly impressed with Audit Bridge's exceptional service. The platform was user-friendly from the start, and it greatly assisted us in contacting an excellent consultant who walked us through a complete audit process with precision and openness. They not only identified potential vulnerabilities, but also provided strategic insights for optimization and growth."</p>
+                <img src="/images/owner.jpg" class="owner-image">
                 <div class="owner-testimony">
-                    John Doe, Owner of Polleria Manolito
+                    John Doe, Owner of Restaurant Roma
                 </div>
             </div>
             <i class="ri-arrow-drop-right-line ri-2x"></i>
         </div>
-        <div class="stay-in-touch">
-            <div class="stay-in-touch-title">
-                Stay in Touch
+        <div class="join-us">
+            <div class="join-us-title">
+                Join Us
             </div>
-            <div class="stay-in-touch-description">
-                Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.  
+            <div class="join-us-description">
+                Want to give our service a try? You can can do it for free clicking the button bellow.   
             </div>
-            <div class="stay-in-touch-input">
-                <input type="email">
-                <input type="text">
-                <button>Subscribe</button>
+            <div class="join-us-input">
+                <a class="join-us-button" href="#">Start Now</a>
             </div>
         </div>
         <div class="footer">
             <div class="footer-content">
                 <div class="footer-content-links">
-
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
                 </div>
                 <div class="footer-description">
                     <p>Av. de la Marina 2810, San Miguel, Lima 15087, Perú</p>
@@ -108,5 +133,7 @@
             </div>
 
         </div>
+        
     </body>
 </html>
+
